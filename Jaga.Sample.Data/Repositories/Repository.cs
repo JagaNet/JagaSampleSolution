@@ -4,44 +4,49 @@ using System.Collections.Generic;
 using System.Linq;
 namespace Jaga.Sample.Data.Repositories
 {
-    public abstract class Repository<T> : IRepository<T> where T : class
+    public abstract class Repository<T> : IRepository<T> where T : BaseEntity
     {
-      
+        public static List<T> _userList;
         internal Repository()
         {
-           
+            _userList = new List<T>();
         }
 
         public void Add(T entity)
         {
-          
-             throw new NotImplementedException();
-        }
+            _userList.Add(entity);
+         }
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _userList.Remove(entity);
         }
 
         public void DeleteById(Guid id)
         {
-            throw new NotImplementedException();
+            var entityToremove = _userList.Where(u => u.Id == id).First();
+           _userList.Remove(entityToremove);
+         
         }
 
         public List<T> GetAll()
         {
-             throw new NotImplementedException();
+            return _userList;
+           
         }
 
         public T GetById(Guid id)
         {
-  
-             throw new NotImplementedException();
+            return _userList.SingleOrDefault(u => u.Id == id);
+            
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            var entityToUpdate = _userList.Where(u => u.Id == entity.Id).First();
+
+            entityToUpdate.ModifiedState = true;
+           
         }
     }
 }

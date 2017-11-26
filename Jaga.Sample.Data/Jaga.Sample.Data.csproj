@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\BaseEntity.cs" />
     <Compile Include="Entity\User.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\IRepository.cs" />

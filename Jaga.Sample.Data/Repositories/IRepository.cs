@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Jaga.Sample.Data.Repositories
 {
-    public interface IRepository<T> where T : class
+    public interface IRepository<T> where T : BaseEntity
     {
         T GetById(Guid id);
         List<T> GetAll();
