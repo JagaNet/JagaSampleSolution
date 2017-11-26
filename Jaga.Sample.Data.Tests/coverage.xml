@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="90" visitedSequencePoints="43" numBranchPoints="52" visitedBranchPoints="22" sequenceCoverage="47.78" branchCoverage="42.31" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="6" numClasses="12" visitedMethods="20" numMethods="44" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="A9-B7-52-6F-5C-67-7B-AC-6E-05-24-A7-43-7E-31-D7-71-87-5E-90">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-09-20T15:10:46.8249007Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DA-F3-C7-E5-46-71-05-CF-E0-28-EB-AF-FC-08-39-26-2F-1B-8F-F7">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\mstest.exe</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>MSTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-5C-DF-E7-E5-EB-93-A1-1E-27-D7-04-7B-52-0B-B6-2F-13-08-65">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.Common.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C8-98-52-CA-D9-96-CD-B5-71-37-87-EA-05-74-30-8B-36-C3-4A-5C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-09-02T01:45:23.8311991Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="83-4A-36-4F-35-F2-E2-06-56-FE-6D-F1-6C-5A-83-21-A3-73-0C-03">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ExecutionCommon</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-78-9F-89-8D-8B-89-A1-E9-E1-CB-5C-5B-D3-57-92-DC-80-05-79">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Resource.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-E4-90-B5-42-20-26-BA-49-19-94-C3-CA-93-44-7B-60-08-D7-1C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-08-19T06:00:53.9176123Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CA-61-90-7B-B4-D1-E6-B9-3A-4B-E9-EB-8E-C9-8D-13-29-27-84-7A">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.CommandLine.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.CommandLine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="56-D7-76-88-A1-E3-51-78-9F-50-37-12-DD-1D-24-7E-99-AC-EF-EF">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.TMI.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.TMI</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="44-31-A6-EA-E5-AC-20-AB-29-FA-FB-F0-98-90-32-58-AB-0B-83-7D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-10-25T07:40:48.7191437Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="35-05-C3-FC-AB-D5-3F-5E-94-FF-17-5E-ED-00-30-FC-BA-11-81-B7">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</ModulePath>
+      <ModuleTime>2017-08-19T06:00:54.2301773Z</ModuleTime>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="59-F8-E7-31-B8-D6-73-4E-ED-89-F7-22-B8-47-F6-C3-A3-9B-17-BE">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8218895Z</ModuleTime>
+      <ModuleName>System.Numerics</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-E5-77-94-EF-5D-E5-EB-C9-13-FE-9C-D6-5E-50-41-19-4F-33-96">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-09-02T01:45:24.1906023Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="85-47-25-C7-61-DE-F7-3F-34-74-5D-B9-48-A0-E4-CE-AF-DF-F8-E1">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-AF-76-8A-40-39-3D-DB-A3-EC-39-F9-A8-1D-15-00-45-59-09-B6">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-66-DC-31-19-3E-D1-5F-C6-4B-DA-9A-CD-29-BB-FC-2C-18-84-97">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.UnitTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-E8-9A-F7-80-D1-91-3C-91-56-FB-11-98-42-EF-DE-D3-D0-EB-00">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-E8-9A-F7-80-D1-91-3C-91-56-FB-11-98-42-EF-DE-D3-D0-EB-00">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="85-47-25-C7-61-DE-F7-3F-34-74-5D-B9-48-A0-E4-CE-AF-DF-F8-E1">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-5C-DF-E7-E5-EB-93-A1-1E-27-D7-04-7B-52-0B-B6-2F-13-08-65">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.Common.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-AF-76-8A-40-39-3D-DB-A3-EC-39-F9-A8-1D-15-00-45-59-09-B6">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-66-DC-31-19-3E-D1-5F-C6-4B-DA-9A-CD-29-BB-FC-2C-18-84-97">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.UnitTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-78-9F-89-8D-8B-89-A1-E9-E1-CB-5C-5B-D3-57-92-DC-80-05-79">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Resource.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-D1-34-84-7F-64-76-7B-C4-6A-FC-3D-C3-55-BB-7C-7F-E3-62-77">
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\bin\debug\Jaga.Sample.Data.Tests.dll</ModulePath>
+      <ModuleTime>2017-11-26T22:34:44.3276182Z</ModuleTime>
+      <ModuleName>Jaga.Sample.Data.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2B-48-07-AD-84-F8-A6-99-87-6B-C9-88-A8-5F-B3-D3-7A-EC-CD">
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\bin\debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</ModulePath>
+      <ModuleTime>2017-05-30T23:27:42Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.TestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="39-E5-04-08-F4-3B-DD-AB-22-09-E2-25-60-EE-E9-04-56-46-55-43">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.ControllerObject.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ControllerObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-E8-9A-F7-80-D1-91-3C-91-56-FB-11-98-42-EF-DE-D3-D0-EB-00">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-5C-DF-E7-E5-EB-93-A1-1E-27-D7-04-7B-52-0B-B6-2F-13-08-65">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.Common.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-D1-34-84-7F-64-76-7B-C4-6A-FC-3D-C3-55-BB-7C-7F-E3-62-77">
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\bin\debug\jaga.sample.data.tests.dll</ModulePath>
+      <ModuleTime>2017-11-26T22:34:44.3276182Z</ModuleTime>
+      <ModuleName>Jaga.Sample.Data.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AE-94-9A-2C-F7-F1-18-EF-C8-71-26-1B-22-A9-DC-0D-55-5F-74-07">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.AgentProcessManager.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentProcessManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="29-58-E1-EB-D3-F6-52-F3-E3-5D-C7-92-48-68-FA-2A-6C-78-BA-3B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2017-09-05T01:21:18.3472968Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-E8-9A-F7-80-D1-91-3C-91-56-FB-11-98-42-EF-DE-D3-D0-EB-00">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-5C-DF-E7-E5-EB-93-A1-1E-27-D7-04-7B-52-0B-B6-2F-13-08-65">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.Common.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-D1-34-84-7F-64-76-7B-C4-6A-FC-3D-C3-55-BB-7C-7F-E3-62-77">
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\bin\debug\jaga.sample.data.tests.dll</ModulePath>
+      <ModuleTime>2017-11-26T22:34:44.3276182Z</ModuleTime>
+      <ModuleName>Jaga.Sample.Data.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2B-48-07-AD-84-F8-A6-99-87-6B-C9-88-A8-5F-B3-D3-7A-EC-CD">
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\bin\debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</ModulePath>
+      <ModuleTime>2017-05-30T23:27:42Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.TestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-8C-C8-17-05-E2-C1-B4-73-D7-56-98-77-31-CB-4F-B4-1A-04-01">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Resources.ResourceManager\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.040827Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="67-EF-2B-1F-03-26-33-E1-72-9D-C5-D3-59-F5-BE-43-D3-AD-59-0C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8687681Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FE-79-A5-A5-5E-89-A9-B1-A2-5F-4E-A0-A3-18-92-DA-E0-D6-FC-27">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="59-06-FC-20-2C-BE-B3-EF-B1-49-C8-78-EE-65-1D-1A-2D-31-C0-D9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Diagnostics.Debug\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Diagnostics.Debug.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:47.7753493Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Debug</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E6-BA-01-FD-8A-7E-FE-04-FC-9C-52-DF-6D-0E-3F-2C-29-B1-C2-13">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Text.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.RegularExpressions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.1191284Z</ModuleTime>
+      <ModuleName>System.Text.RegularExpressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6B-F5-6B-40-59-9F-D4-46-DA-C6-3E-F7-1C-E8-27-BC-C6-05-4C-A1">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Diagnostics.Tools\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Diagnostics.Tools.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.8689378Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tools</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-09-E4-21-D0-B0-0D-A2-4F-85-8E-48-D6-7A-C3-82-BD-FE-F6-E4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:44.0250313Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="CC-5F-D7-17-C6-86-D5-7E-B6-03-71-E4-BB-D0-49-62-78-EC-A1-5D">
+      <Summary numSequencePoints="45" visitedSequencePoints="0" numBranchPoints="26" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="6" visitedMethods="0" numMethods="22" />
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\bin\debug\Jaga.Sample.Data.dll</ModulePath>
+      <ModuleTime>2017-11-26T22:34:44.0763915Z</ModuleTime>
+      <ModuleName>Jaga.Sample.Data</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data\Repositories\Repository.cs" />
+        <File uid="5" fullPath="C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data\Entity\BaseEntity.cs" />
+        <File uid="6" fullPath="C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data\Entity\User.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="30" visitedSequencePoints="0" numBranchPoints="11" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="7" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="30" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2" ordinal="1" offset="7" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="8" sl="12" sc="13" el="12" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="4" ordinal="3" offset="18" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="30" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::Add(T)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="5" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="6" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="7" ordinal="2" offset="13" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="5" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::Delete(T)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="9" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="10" ordinal="2" offset="13" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="8" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::DeleteById(System.Guid)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="11" ordinal="0" offset="13" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="12" ordinal="1" offset="14" sl="27" sc="13" el="27" ec="77" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="13" ordinal="2" offset="37" sl="28" sc="13" el="28" ec="40" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="14" ordinal="3" offset="50" sl="29" sc="13" el="29" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="15" ordinal="4" offset="51" sl="30" sc="17" el="30" ec="50" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="16" ordinal="5" offset="63" sl="31" sc="13" el="31" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="17" ordinal="6" offset="64" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="18" ordinal="0" offset="48" sl="28" path="0" offsetend="50" fileid="1" />
+                <BranchPoint vc="0" uspid="19" ordinal="1" offset="48" sl="28" path="1" offsetend="64" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="20" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;T&gt; Jaga.Sample.Data.Repositories.Repository`1::GetAll()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="21" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="22" ordinal="1" offset="1" sl="36" sc="13" el="36" ec="30" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="23" ordinal="2" offset="9" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="21" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>T Jaga.Sample.Data.Repositories.Repository`1::GetById(System.Guid)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="24" ordinal="0" offset="13" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="25" ordinal="1" offset="14" sl="42" sc="13" el="42" ec="63" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="26" ordinal="2" offset="39" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="27" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::Update(T)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="28" ordinal="0" offset="13" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="29" ordinal="1" offset="14" sl="48" sc="13" el="48" ec="83" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="30" ordinal="2" offset="37" sl="49" sc="13" el="49" ec="39" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="31" ordinal="3" offset="50" sl="50" sc="13" el="50" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="32" ordinal="4" offset="51" sl="51" sc="17" el="51" ec="52" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="33" ordinal="5" offset="64" sl="52" sc="13" el="52" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="34" ordinal="6" offset="65" sl="54" sc="9" el="54" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="35" ordinal="0" offset="48" sl="49" path="0" offsetend="50" fileid="1" />
+                <BranchPoint vc="0" uspid="36" ordinal="1" offset="48" sl="49" path="1" offsetend="65" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="37" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass4_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass4_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="38" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass4_0::&lt;DeleteById&gt;b__0(T)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="39" ordinal="0" offset="0" sl="27" sc="65" el="27" ec="75" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="39" ordinal="0" offset="0" sl="27" sc="65" el="27" ec="75" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass6_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass6_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="40" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass6_0::&lt;GetById&gt;b__0(T)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="41" ordinal="0" offset="0" sl="42" sc="51" el="42" ec="61" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="41" ordinal="0" offset="0" sl="42" sc="51" el="42" ec="61" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass7_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass7_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="42" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass7_0::&lt;Update&gt;b__0(T)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="43" ordinal="0" offset="0" sl="48" sc="64" el="48" ec="81" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="43" ordinal="0" offset="0" sl="48" sc="64" el="48" ec="81" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>Jaga.Sample.Data.Repositories.UserRepository</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.UserRepository::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="44" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>Jaga.Sample.Data.Entity.BaseEntity</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Guid Jaga.Sample.Data.Entity.BaseEntity::get_Id()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="45" ordinal="0" offset="0" sl="7" sc="26" el="7" ec="30" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="45" ordinal="0" offset="0" sl="7" sc="26" el="7" ec="30" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.BaseEntity::set_Id(System.Guid)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="46" ordinal="0" offset="0" sl="7" sc="31" el="7" ec="35" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="46" ordinal="0" offset="0" sl="7" sc="31" el="7" ec="35" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Entity.BaseEntity::get_ModifiedState()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="47" ordinal="0" offset="0" sl="8" sc="37" el="8" ec="41" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="47" ordinal="0" offset="0" sl="8" sc="37" el="8" ec="41" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.BaseEntity::set_ModifiedState(System.Boolean)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="48" ordinal="0" offset="0" sl="8" sc="42" el="8" ec="46" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="48" ordinal="0" offset="0" sl="8" sc="42" el="8" ec="46" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.BaseEntity::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="49" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="8" />
+          <FullName>Jaga.Sample.Data.Entity.User</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.String Jaga.Sample.Data.Entity.User::get_Username()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="50" ordinal="0" offset="0" sl="7" sc="34" el="7" ec="38" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="50" ordinal="0" offset="0" sl="7" sc="34" el="7" ec="38" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_Username(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="51" ordinal="0" offset="0" sl="7" sc="39" el="7" ec="43" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="51" ordinal="0" offset="0" sl="7" sc="39" el="7" ec="43" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.String Jaga.Sample.Data.Entity.User::get_Firstname()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="52" ordinal="0" offset="0" sl="8" sc="35" el="8" ec="39" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="52" ordinal="0" offset="0" sl="8" sc="35" el="8" ec="39" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_Firstname(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="53" ordinal="0" offset="0" sl="8" sc="40" el="8" ec="44" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="53" ordinal="0" offset="0" sl="8" sc="40" el="8" ec="44" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.String Jaga.Sample.Data.Entity.User::get_Surname()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="54" ordinal="0" offset="0" sl="9" sc="33" el="9" ec="37" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="54" ordinal="0" offset="0" sl="9" sc="33" el="9" ec="37" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_Surname(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="55" ordinal="0" offset="0" sl="9" sc="38" el="9" ec="42" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="55" ordinal="0" offset="0" sl="9" sc="38" el="9" ec="42" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.DateTime Jaga.Sample.Data.Entity.User::get_DateOfBirth()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="56" ordinal="0" offset="0" sl="10" sc="39" el="10" ec="43" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="56" ordinal="0" offset="0" sl="10" sc="39" el="10" ec="43" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_DateOfBirth(System.DateTime)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="57" ordinal="0" offset="0" sl="10" sc="44" el="10" ec="48" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="57" ordinal="0" offset="0" sl="10" sc="44" el="10" ec="48" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="58" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="44-31-A6-EA-E5-AC-20-AB-29-FA-FB-F0-98-90-32-58-AB-0B-83-7D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-10-25T07:40:48.7191437Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-B7-52-6F-5C-67-7B-AC-6E-05-24-A7-43-7E-31-D7-71-87-5E-90">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-09-20T15:10:46.8249007Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="54-81-C9-97-8D-3B-60-27-9A-78-64-5D-85-4B-9F-01-59-E8-11-C8">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\QTAgent32.exe</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>QTAgent32</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="83-4A-36-4F-35-F2-E2-06-56-FE-6D-F1-6C-5A-83-21-A3-73-0C-03">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ExecutionCommon</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-5C-DF-E7-E5-EB-93-A1-1E-27-D7-04-7B-52-0B-B6-2F-13-08-65">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.Common.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-78-9F-89-8D-8B-89-A1-E9-E1-CB-5C-5B-D3-57-92-DC-80-05-79">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Resource.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C8-98-52-CA-D9-96-CD-B5-71-37-87-EA-05-74-30-8B-36-C3-4A-5C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-09-02T01:45:23.8311991Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-E4-90-B5-42-20-26-BA-49-19-94-C3-CA-93-44-7B-60-08-D7-1C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-08-19T06:00:53.9176123Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="44-31-A6-EA-E5-AC-20-AB-29-FA-FB-F0-98-90-32-58-AB-0B-83-7D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-10-25T07:40:48.7191437Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="29-58-E1-EB-D3-F6-52-F3-E3-5D-C7-92-48-68-FA-2A-6C-78-BA-3B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2017-09-05T01:21:18.3472968Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-81-3A-C0-B4-E4-42-17-2B-46-6B-2A-D6-47-7F-08-A1-F1-FB-47">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.AgentObject.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AE-94-9A-2C-F7-F1-18-EF-C8-71-26-1B-22-A9-DC-0D-55-5F-74-07">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.AgentProcessManager.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentProcessManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-E5-77-94-EF-5D-E5-EB-C9-13-FE-9C-D6-5E-50-41-19-4F-33-96">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-09-02T01:45:24.1906023Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-AF-76-8A-40-39-3D-DB-A3-EC-39-F9-A8-1D-15-00-45-59-09-B6">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="35-05-C3-FC-AB-D5-3F-5E-94-FF-17-5E-ED-00-30-FC-BA-11-81-B7">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</ModulePath>
+      <ModuleTime>2017-08-19T06:00:54.2301773Z</ModuleTime>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-66-DC-31-19-3E-D1-5F-C6-4B-DA-9A-CD-29-BB-FC-2C-18-84-97">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.UnitTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B3-C8-45-AC-33-4F-FC-EE-92-B1-37-50-4F-BD-BC-37-A6-66-27-C9">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-E8-9A-F7-80-D1-91-3C-91-56-FB-11-98-42-EF-DE-D3-D0-EB-00">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-E8-9A-F7-80-D1-91-3C-91-56-FB-11-98-42-EF-DE-D3-D0-EB-00">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B3-C8-45-AC-33-4F-FC-EE-92-B1-37-50-4F-BD-BC-37-A6-66-27-C9">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="83-4A-36-4F-35-F2-E2-06-56-FE-6D-F1-6C-5A-83-21-A3-73-0C-03">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ExecutionCommon</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-5C-DF-E7-E5-EB-93-A1-1E-27-D7-04-7B-52-0B-B6-2F-13-08-65">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.Common.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-78-9F-89-8D-8B-89-A1-E9-E1-CB-5C-5B-D3-57-92-DC-80-05-79">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Resource.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-81-3A-C0-B4-E4-42-17-2B-46-6B-2A-D6-47-7F-08-A1-F1-FB-47">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.AgentObject.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-66-DC-31-19-3E-D1-5F-C6-4B-DA-9A-CD-29-BB-FC-2C-18-84-97">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.UnitTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-AF-76-8A-40-39-3D-DB-A3-EC-39-F9-A8-1D-15-00-45-59-09-B6">
+      <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel.dll</ModulePath>
+      <ModuleTime>2017-11-23T22:46:19.5700038Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-D1-34-84-7F-64-76-7B-C4-6A-FC-3D-C3-55-BB-7C-7F-E3-62-77">
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\TestResults\Jaga_JAGA-PC 2017-11-26 23_15_09\Out\Jaga.Sample.Data.Tests.dll</ModulePath>
+      <ModuleTime>2017-11-26T22:34:44.3276182Z</ModuleTime>
+      <ModuleName>Jaga.Sample.Data.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2B-48-07-AD-84-F8-A6-99-87-6B-C9-88-A8-5F-B3-D3-7A-EC-CD">
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\TestResults\Jaga_JAGA-PC 2017-11-26 23_15_09\Out\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</ModulePath>
+      <ModuleTime>2017-05-30T23:27:42Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.TestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="CC-5F-D7-17-C6-86-D5-7E-B6-03-71-E4-BB-D0-49-62-78-EC-A1-5D">
+      <Summary numSequencePoints="45" visitedSequencePoints="43" numBranchPoints="26" visitedBranchPoints="22" sequenceCoverage="95.56" branchCoverage="84.62" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="6" numClasses="6" visitedMethods="20" numMethods="22" />
+      <ModulePath>C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data.Tests\TestResults\Jaga_JAGA-PC 2017-11-26 23_15_09\Out\Jaga.Sample.Data.dll</ModulePath>
+      <ModuleTime>2017-11-26T22:34:44.0763915Z</ModuleTime>
+      <ModuleName>Jaga.Sample.Data</ModuleName>
+      <Files>
+        <File uid="13" fullPath="C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data\Repositories\Repository.cs" />
+        <File uid="17" fullPath="C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data\Entity\BaseEntity.cs" />
+        <File uid="18" fullPath="C:\Users\Jaga\source\repos\JagaSampleSolution\Jaga.Sample.Data\Entity\User.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="30" visitedSequencePoints="30" numBranchPoints="11" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="81.82" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="7" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::.ctor()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="59" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="30" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="6" uspid="60" ordinal="1" offset="7" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="6" uspid="61" ordinal="2" offset="8" sl="12" sc="13" el="12" ec="39" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="6" uspid="62" ordinal="3" offset="18" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="59" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="30" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::Add(T)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="56" uspid="63" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="56" uspid="64" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="35" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="56" uspid="65" ordinal="2" offset="13" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="56" uspid="63" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::Delete(T)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="66" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="67" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="38" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="68" ordinal="2" offset="13" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="66" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="66.67" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::DeleteById(System.Guid)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="69" ordinal="0" offset="13" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="70" ordinal="1" offset="14" sl="27" sc="13" el="27" ec="77" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="71" ordinal="2" offset="37" sl="28" sc="13" el="28" ec="40" bec="2" bev="1" fileid="13" />
+                <SequencePoint vc="1" uspid="72" ordinal="3" offset="50" sl="29" sc="13" el="29" ec="14" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="73" ordinal="4" offset="51" sl="30" sc="17" el="30" ec="50" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="74" ordinal="5" offset="63" sl="31" sc="13" el="31" ec="14" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="75" ordinal="6" offset="64" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="76" ordinal="0" offset="48" sl="28" path="0" offsetend="50" fileid="13" />
+                <BranchPoint vc="0" uspid="77" ordinal="1" offset="48" sl="28" path="1" offsetend="64" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="1" uspid="78" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;T&gt; Jaga.Sample.Data.Repositories.Repository`1::GetAll()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="79" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="6" uspid="80" ordinal="1" offset="1" sl="36" sc="13" el="36" ec="30" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="6" uspid="81" ordinal="2" offset="9" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="79" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>T Jaga.Sample.Data.Repositories.Repository`1::GetById(System.Guid)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="82" ordinal="0" offset="13" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="7" uspid="83" ordinal="1" offset="14" sl="42" sc="13" el="42" ec="63" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="7" uspid="84" ordinal="2" offset="39" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="85" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="66.67" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1::Update(T)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="86" ordinal="0" offset="13" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="87" ordinal="1" offset="14" sl="48" sc="13" el="48" ec="83" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="88" ordinal="2" offset="37" sl="49" sc="13" el="49" ec="39" bec="2" bev="1" fileid="13" />
+                <SequencePoint vc="1" uspid="89" ordinal="3" offset="50" sl="50" sc="13" el="50" ec="14" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="90" ordinal="4" offset="51" sl="51" sc="17" el="51" ec="52" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="91" ordinal="5" offset="64" sl="52" sc="13" el="52" ec="14" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="92" ordinal="6" offset="65" sl="54" sc="9" el="54" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="93" ordinal="0" offset="48" sl="49" path="0" offsetend="50" fileid="13" />
+                <BranchPoint vc="0" uspid="94" ordinal="1" offset="48" sl="49" path="1" offsetend="65" fileid="13" />
+              </BranchPoints>
+              <MethodPoint vc="1" uspid="95" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass4_0</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass4_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="96" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass4_0::&lt;DeleteById&gt;b__0(T)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="97" ordinal="0" offset="0" sl="27" sc="65" el="27" ec="75" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="97" ordinal="0" offset="0" sl="27" sc="65" el="27" ec="75" bec="0" bev="0" fileid="13" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass6_0</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass6_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="98" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass6_0::&lt;GetById&gt;b__0(T)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="65" uspid="99" ordinal="0" offset="0" sl="42" sc="51" el="42" ec="61" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="65" uspid="99" ordinal="0" offset="0" sl="42" sc="51" el="42" ec="61" bec="0" bev="0" fileid="13" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass7_0</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass7_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="100" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Repositories.Repository`1/&lt;&gt;c__DisplayClass7_0::&lt;Update&gt;b__0(T)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="11" uspid="101" ordinal="0" offset="0" sl="48" sc="64" el="48" ec="81" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="11" uspid="101" ordinal="0" offset="0" sl="48" sc="64" el="48" ec="81" bec="0" bev="0" fileid="13" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>Jaga.Sample.Data.Repositories.UserRepository</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Repositories.UserRepository::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="6" uspid="102" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>Jaga.Sample.Data.Entity.BaseEntity</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Guid Jaga.Sample.Data.Entity.BaseEntity::get_Id()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="101" uspid="103" ordinal="0" offset="0" sl="7" sc="26" el="7" ec="30" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="101" uspid="103" ordinal="0" offset="0" sl="7" sc="26" el="7" ec="30" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.BaseEntity::set_Id(System.Guid)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="56" uspid="104" ordinal="0" offset="0" sl="7" sc="31" el="7" ec="35" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="56" uspid="104" ordinal="0" offset="0" sl="7" sc="31" el="7" ec="35" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Boolean Jaga.Sample.Data.Entity.BaseEntity::get_ModifiedState()</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="105" ordinal="0" offset="0" sl="8" sc="37" el="8" ec="41" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="105" ordinal="0" offset="0" sl="8" sc="37" el="8" ec="41" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.BaseEntity::set_ModifiedState(System.Boolean)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="106" ordinal="0" offset="0" sl="8" sc="42" el="8" ec="46" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="106" ordinal="0" offset="0" sl="8" sc="42" el="8" ec="46" bec="0" bev="0" fileid="17" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.BaseEntity::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="56" uspid="107" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="6" numBranchPoints="8" visitedBranchPoints="6" sequenceCoverage="75" branchCoverage="75" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="8" />
+          <FullName>Jaga.Sample.Data.Entity.User</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.String Jaga.Sample.Data.Entity.User::get_Username()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="108" ordinal="0" offset="0" sl="7" sc="34" el="7" ec="38" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="108" ordinal="0" offset="0" sl="7" sc="34" el="7" ec="38" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_Username(System.String)</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="56" uspid="109" ordinal="0" offset="0" sl="7" sc="39" el="7" ec="43" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="56" uspid="109" ordinal="0" offset="0" sl="7" sc="39" el="7" ec="43" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.String Jaga.Sample.Data.Entity.User::get_Firstname()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="110" ordinal="0" offset="0" sl="8" sc="35" el="8" ec="39" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="110" ordinal="0" offset="0" sl="8" sc="35" el="8" ec="39" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_Firstname(System.String)</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="57" uspid="111" ordinal="0" offset="0" sl="8" sc="40" el="8" ec="44" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="57" uspid="111" ordinal="0" offset="0" sl="8" sc="40" el="8" ec="44" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.String Jaga.Sample.Data.Entity.User::get_Surname()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="112" ordinal="0" offset="0" sl="9" sc="33" el="9" ec="37" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="112" ordinal="0" offset="0" sl="9" sc="33" el="9" ec="37" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_Surname(System.String)</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="56" uspid="113" ordinal="0" offset="0" sl="9" sc="38" el="9" ec="42" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="56" uspid="113" ordinal="0" offset="0" sl="9" sc="38" el="9" ec="42" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.DateTime Jaga.Sample.Data.Entity.User::get_DateOfBirth()</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="114" ordinal="0" offset="0" sl="10" sc="39" el="10" ec="43" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="114" ordinal="0" offset="0" sl="10" sc="39" el="10" ec="43" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::set_DateOfBirth(System.DateTime)</Name>
+              <FileRef uid="18" />
+              <SequencePoints>
+                <SequencePoint vc="56" uspid="115" ordinal="0" offset="0" sl="10" sc="44" el="10" ec="48" bec="0" bev="0" fileid="18" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="56" uspid="115" ordinal="0" offset="0" sl="10" sc="44" el="10" ec="48" bec="0" bev="0" fileid="18" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void Jaga.Sample.Data.Entity.User::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="56" uspid="116" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="FE-79-A5-A5-5E-89-A9-B1-A2-5F-4E-A0-A3-18-92-DA-E0-D6-FC-27">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
