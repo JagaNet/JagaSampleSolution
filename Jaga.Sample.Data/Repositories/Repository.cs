@@ -6,7 +6,7 @@ namespace Jaga.Sample.Data.Repositories
 {
     public abstract class Repository<T> : IRepository<T> where T : BaseEntity
     {
-        public static List<T> _userList;
+        private static List<T> _userList;
         internal Repository()
         {
             _userList = new List<T>();
@@ -15,7 +15,7 @@ namespace Jaga.Sample.Data.Repositories
         public void Add(T entity)
         {
             _userList.Add(entity);
-         }
+        }
 
         public void Delete(T entity)
         {
@@ -24,29 +24,33 @@ namespace Jaga.Sample.Data.Repositories
 
         public void DeleteById(Guid id)
         {
-            var entityToremove = _userList.Where(u => u.Id == id).First();
-           _userList.Remove(entityToremove);
-         
+            var entityToremove = _userList.SingleOrDefault(u => u.Id == id);
+            if (entityToremove != null)
+            {
+                _userList.Remove(entityToremove);
+            }
         }
 
         public List<T> GetAll()
         {
             return _userList;
-           
+
         }
 
         public T GetById(Guid id)
         {
             return _userList.SingleOrDefault(u => u.Id == id);
-            
+
         }
 
         public void Update(T entity)
         {
-            var entityToUpdate = _userList.Where(u => u.Id == entity.Id).First();
+            var entityUpdated = _userList.SingleOrDefault(u => u.Id == entity.Id);
+            if (entityUpdated != null)
+            {
+                entityUpdated.ModifiedState = true;
+            }
 
-            entityToUpdate.ModifiedState = true;
-           
         }
     }
 }
